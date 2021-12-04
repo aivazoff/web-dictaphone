@@ -26,6 +26,19 @@ h1, h2 {
   padding: 0.5rem 0 0 0;
 }
 
+.page-header {
+  position: relative;
+}
+
+.page-header label {
+  position: absolute;
+  right: 0;
+}
+
+.page-header select {
+  vertical-align: middle;
+}
+
 .main-controls {
   padding: 0.5rem 0;
 }
@@ -108,7 +121,7 @@ button.delete {
 
 /* Checkbox hack to control information box display */
 
-label {
+label[for="toggle"] {
   font-size: 3rem;
   position: absolute;
   top: 2px;
